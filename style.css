@@ -16,6 +16,14 @@
   font-family: "active",sans-serif;
 }
 
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 150px;
+  padding-top: 75px;
+  font-family: "active";
+}
+
 h2 {
   font-family: "active";
   font-size: 100px;
@@ -70,6 +78,10 @@ body {
   padding: 0 25px;
 }
 
+.navbar button {
+  background: #a07720;
+}
+
 header {
   height: 800px;
 }
@@ -78,26 +90,19 @@ header .logoFilm {
   padding-top: 100px;
 }
 
-header h1 {
-  text-align: center;
-  color: #fff;
-  font-size: 150px;
-  padding-top: 75px;
-  font-family: "active";
-}
-
 section {
   padding: 75px 150px;
 }
 
 #festival {
   padding-top: 150px;
-  height: 500px;
+  height: 550px;
   background: black;
 }
 
 #festival h2 {
   color: #a07720;
+  text-align: justify;
 }
 
 #festival h3 {
@@ -112,8 +117,41 @@ section {
   padding-top: 20px;
 }
 
+#festival .newsletter {
+  padding: 100px 0;
+}
+
+#festival .newsletter .email {
+  font-family: "active";
+}
+
+#festival .newsletter .button1 {
+  background: #a07720;
+  border: solid 2px #fff;
+  border-radius: 2px 2px 2px;
+  color: #fff;
+  font-family: "active";
+  font-size: 25px;
+  padding: 10px 40px;
+}
+
+#festival .newsletter .button1:hover {
+  background: #fff;
+  border: solid 2px #a07720;
+  color: #a07720;
+}
+
+#festival .newsletter a {
+  color: #fff;
+}
+
+#festival .newsletter a:hover {
+  color: #a07720;
+  text-decoration: none;
+}
+
 #line_up {
-  height: 3000px;
+  height: 2700px;
   padding-top: 150px;
 }
 
@@ -208,18 +246,22 @@ section {
   margin-bottom: 50px;
 }
 
-.recrutement {
+#recrutement {
   padding-top: 200px;
 }
 
-.recrutement h4 {
+#recrutement h4 {
   color: #a07720;
   font-size: 40px;
   font-family: "active";
   padding-bottom: 25px;
 }
 
-.recrutement .cta_benevole {
+#recrutement p {
+  text-align: justify;
+}
+
+#recrutement .cta_benevole {
   background: #a07720;
   border: solid 2px #fff;
   border-radius: 2px 2px 2px;
@@ -229,17 +271,17 @@ section {
   padding: 10px 40px;
 }
 
-.recrutement .cta_benevole:hover {
+#recrutement .cta_benevole:hover {
   background: #fff;
   border: solid 2px #a07720;
   color: #a07720;
 }
 
-.recrutement a {
+#recrutement a {
   color: #fff;
 }
 
-.recrutement a:hover {
+#recrutement a:hover {
   color: #a07720;
   text-decoration: none;
 }
@@ -255,7 +297,7 @@ section {
 }
 
 #partenaires .img_partenaires {
-  width: 264px;
+  width: 269px;
   height: 530px;
   border-radius: 3px 3px 3px;
   -webkit-transform: skewY(-1deg);
@@ -335,26 +377,22 @@ section {
   padding-bottom: 20px;
 }
 
-#infos #map-9cd199b9cc5410cd3b1ad21cab2e54d3 {
-  border-radius: 5px 5px 5px 5px;
-}
-
-h2 {
+#contact h2 {
   color: #fff;
   text-align: center;
 }
 
-p {
+#contact p {
   color: #fff;
 }
 
-form {
+#contact form {
   padding-top: 50px;
 }
 
-form input {
-  background: #a07720;
-  border: solid 2px #fff;
+#contact form input {
+  background: #fff;
+  border: solid 2px #a07720;
   border-radius: 2px 2px 2px;
   color: #a07720;
   font-family: "active";
@@ -362,26 +400,42 @@ form input {
   padding: 10px 40px;
 }
 
-form input:hover {
+#contact form input:hover {
   background: #fff;
   border: solid 2px #a07720;
   color: #a07720;
 }
 
-form a {
+#contact form .cta_benevole {
+  background: #a07720;
+  border: solid 2px #fff;
+  border-radius: 2px 2px 2px;
+  color: #fff;
+  font-family: "active";
+  font-size: 25px;
+  padding: 10px 40px;
+}
+
+#contact form .cta_benevole:hover {
+  background: #fff;
+  border: solid 2px #a07720;
+  color: #a07720;
+}
+
+#contact form a {
   color: #fff;
 }
 
-form a:hover {
+#contact form a:hover {
   color: #a07720;
   text-decoration: none;
 }
 
-form #hour-select {
-  margin: 50px 0;
+#contact form #hour-select {
+  margin: 25px 0;
 }
 
-form .button1 {
+#contact form .button1 {
   color: #fff;
 }
 

@@ -1,0 +1,122 @@
+@media (max-width: 1750px){
+    h2{
+        font-size: 85px;
+    } 
+    h3{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1440px){
+    body{
+        width: 1440px
+    }
+    h2{
+        font-size: 75px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .newsletter{
+    padding: none;
+    }
+    #partenaires{
+        padding-left: 0;
+        padding-right: 80px;
+    }
+    .img_partenaires{
+        width: 150px;
+    }
+}
+@media (max-width: 1199px){
+    
+    #festival{
+        height: 750px;
+    }
+    .navbar .nav-link{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .newsletter{
+        padding: 0px 0;
+        width: 50%;
+    }
+    .button1{
+        margin-top: 50px;
+    }
+    #recrutement{
+        padding: 100px 200px;
+    }
+    #benevole .img_membre{
+        width: 150px;
+        height: 150px;
+        padding: 0 0;
+    }
+    #partenaires .img_partenaires{
+        width: 200px;
+        height:300px;
+    }
+    
+}
+@media (max-width: 1110px){
+    body{
+        width: 1110px
+    }
+    h1{
+        font-size: 100px;
+    }
+    .logoFilm{
+        width: 750px;
+        height: 375px;
+    }
+    #line_up{
+        padding: 100px 0;
+    }
+    #contact{
+        padding: 100px 0;
+    }
+    #recrutement{
+        padding: 100px 100px;
+    
+}
+@media (max-width: 1010px){
+    body{
+        width: 1010px
+    }
+
+}
+@media (max-width: 768px){
+    
+    .button1{
+        margin-bottom: 100px;
+    }
+    #line_up{
+        height:3250px;
+    }
+    #line_up .film2{
+        padding: 300px 80px;
+    }
+    #line_up .film3{
+        padding: 450px 100px;
+    }
+    #line_up .img_film{
+        margin-top: 50px;
+    }
+    #benevole{
+        height: 2500px;
+    }
+    #partenaires{ 
+        height: 2500px;
+    }
+    .div_partenaires{
+        padding: 0 350px;
+    }
+    #infos .right{
+        padding: 100px 100px;
+    }
+    #infos .map{
+        padding: 50px 100px;
+    }
+    #contact{
+        padding: 100px 200px;
+    }
+}

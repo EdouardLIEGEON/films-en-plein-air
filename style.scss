@@ -12,6 +12,13 @@ font-display:auto;font-style:normal;font-weight:400;
 .tk-active { font-family: "active",sans-serif; }
 $font1: "active";
 $font2: lato;
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 150px;
+    padding-top: 75px;
+    font-family: $font1;
+}
 h2{
     font-family: $font1;
     font-size:100px;
@@ -58,6 +65,9 @@ body{
     a{
         padding:  0 25px;
     }
+    button{
+        background: #a07720;
+    }
 }
 header{
     height: 800px;
@@ -65,23 +75,17 @@ header{
     .logoFilm{
         padding-top: 100px;
     }
-    h1{
-        text-align: center;
-        color: #fff;
-        font-size: 150px;
-        padding-top: 75px;
-        font-family: $font1;
-    }
 }
 section{
     padding: 75px 150px;
 }
 #festival{
     padding-top: 150px;
-    height: 500px;
+    height: 550px;
     background: black;
     h2{
         color: #a07720;
+        text-align: justify;
     }
     h3{
         color: #a07720;
@@ -92,9 +96,36 @@ section{
     .festival_2{
         padding-top: 20px;
     }
+    .newsletter{
+        padding: 100px 0;
+        .email{
+            font-family: $font1;
+        }
+        .button1{
+            background: #a07720;
+            border: solid 2px #fff;
+            border-radius: 2px 2px 2px;
+            color: #fff;
+            font-family: $font1;
+            font-size: 25px;
+            padding: 10px 40px;
+            &:hover{
+                background: #fff;
+                border: solid 2px #a07720;
+                color: #a07720;
+            }
+        }
+            a{
+                color: #fff;
+                &:hover{
+                    color: #a07720;
+                    text-decoration: none;
+                }
+            }
+    }
 }
 #line_up{
-    height:3000px;
+    height:2700px;
     padding-top:150px;
     h2{
         color: #fff;
@@ -173,45 +204,49 @@ section{
         margin-bottom: 50px;
     }
 }
-    .recrutement{
-        padding-top: 200px;
-        h4{
-            color: #a07720;
-            font-size: 40px;
-            font-family: $font1;
-            padding-bottom: 25px;
-        }
-        .cta_benevole{
-        background: #a07720;
-        border: solid 2px #fff;
-        border-radius: 2px 2px 2px;
-        color: #fff;
-        font-family: $font1;
-        font-size: 25px;
-        padding: 10px 40px;
-        &:hover{
-            background: #fff;
-            border: solid 2px #a07720;
-            color: #a07720;
-            }
-        }
-        a{
-            color: #fff;
-            &:hover{
-                color: #a07720;
-                text-decoration: none;
-            }
+#recrutement{
+padding-top: 200px;
+    h4{
+    color: #a07720;
+    font-size: 40px;
+    font-family: $font1;
+    padding-bottom: 25px;
+    }
+    p{
+    text-align: justify;
+    }
+    .cta_benevole{
+    background: #a07720;
+    border: solid 2px #fff;
+    border-radius: 2px 2px 2px;
+    color: #fff;
+    font-family: $font1;
+    font-size: 25px;
+    padding: 10px 40px;
+    &:hover{
+        background: #fff;
+        border: solid 2px #a07720;
+        color: #a07720;
         }
     }
+    a{
+    color: #fff;
+        &:hover{
+        color: #a07720;
+        text-decoration: none;
+        }
+    }
+}
 #partenaires{
     height: 1200px;
+    
     h2{
         color:#fff;
         padding-bottom: 100px;
         text-align: center;
     }
     .img_partenaires{
-        width: 264px;
+        width: 269px;
         height:530px;
         border-radius: 3px 3px 3px;
         transform: skewY(-1deg);
@@ -275,25 +310,21 @@ section{
         color: #fff;
         padding-bottom: 20px;
     }
-    #map-9cd199b9cc5410cd3b1ad21cab2e54d3{
-        border-radius: 5px 5px 5px 5px;
-    }
 }
 #contact{
 
-}
-h2{
+    h2{
     color: #fff;
     text-align: center;
-}
-p{
+    }
+    p{
     color: #fff;
-}
-form{
+    }
+    form{
     padding-top: 50px;
-    input{
-        background: #a07720;
-        border: solid 2px #fff;
+        input{
+        background: #fff;
+        border: solid 2px #a07720;
         border-radius: 2px 2px 2px;
         color: #a07720;
         font-family: $font1;
@@ -305,6 +336,20 @@ form{
             color: #a07720;
             }
         }
+        .cta_benevole{
+            background: #a07720;
+            border: solid 2px #fff;
+            border-radius: 2px 2px 2px;
+            color: #fff;
+            font-family: $font1;
+            font-size: 25px;
+            padding: 10px 40px;
+            &:hover{
+                background: #fff;
+                border: solid 2px #a07720;
+                color: #a07720;
+                }
+            }
         a{
             color: #fff;
             &:hover{
@@ -313,11 +358,12 @@ form{
             }
         }
         #hour-select{
-            margin: 50px 0;
+            margin: 25px 0;
         }
         .button1{
             color: #fff;
         }
+    }
 }
 footer{
     background: #000000;
