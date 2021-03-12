@@ -1,3 +1,16 @@
+@media (max-width: 1900px){
+    .form1, .form2{
+        padding: 0 0;
+    }
+    #checkbox{
+        padding: 0 0;
+    }
+}
+@media (max-width: 1860px){
+    .img_partenaires{
+        width: 1500px;
+    }
+}
 @media (max-width: 1750px){
     h2{
         font-size: 85px;
@@ -5,11 +18,19 @@
     h3{
         font-size: 30px;
     }
+    section{
+        padding: 75px 100px;
+    }
+    #contact{
+        padding: 50px 0;
+    }
+}
+@media (max-width: 1510px){
+    .img_partenaires{
+        width: 1300px;
+    }
 }
 @media (max-width: 1440px){
-    body{
-        width: 1440px
-    }
     h2{
         font-size: 75px;
     }
@@ -19,43 +40,43 @@
     .newsletter{
     padding: none;
     }
-    #partenaires{
-        padding-left: 0;
-        padding-right: 80px;
+    #contact form #checkbox{
+        padding: 0px 30px;
+    }
+    #contact form #checkbox label{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1300px){
+    section{
+        padding: 75px 100px;
     }
     .img_partenaires{
-        width: 150px;
+        width: 1250px;
+    }
+    #infos{
+        padding: 50px 50px;
     }
 }
 @media (max-width: 1199px){
-    
     #festival{
-        height: 750px;
+        padding: 50px 100px;
     }
     .navbar .nav-link{
         font-size: 20px;
         margin: 0px;
     }
-    .newsletter{
-        padding: 0px 0;
-        width: 50%;
-    }
     .button1{
         margin-top: 50px;
     }
     #recrutement{
-        padding: 100px 200px;
+        padding: 50px 100px;
     }
     #benevole .img_membre{
         width: 150px;
         height: 150px;
         padding: 0 0;
-    }
-    #partenaires .img_partenaires{
-        width: 200px;
-        height:300px;
-    }
-    
+    } 
 }
 @media (max-width: 1110px){
     body{
@@ -64,6 +85,12 @@
     h1{
         font-size: 100px;
     }
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size:15px;
+    }
     .logoFilm{
         width: 750px;
         height: 375px;
@@ -71,52 +98,113 @@
     #line_up{
         padding: 100px 0;
     }
-    #contact{
-        padding: 100px 0;
+    #infos{
+        padding: 50px 0;
     }
-    #recrutement{
-        padding: 100px 100px;
-    
+    .img_partenaires{
+        width: 950px;
+    }
+    #contact{
+        padding: 0px 0;
+    }
+    #contact .form1{
+        padding: 25px 50px;
+    }
+    #contact .form2{
+        padding: 25px 50px;
+    }
+    #contact #checkbox{
+        padding: 0px 50px;
+    }
+    .map{
+        padding: 0 0;
+    }
 }
 @media (max-width: 1010px){
     body{
         width: 1010px
     }
+    .img_partenaires{
+        width: 950px;
+    }
 
 }
 @media (max-width: 768px){
-    
+    h2{
+        font-size: 75px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .navbar .nav-link{
+        font-size: 35px;
+    }
+    section{
+        padding: 50px 50px;
+    }
     .button1{
         margin-bottom: 100px;
     }
-    #line_up{
-        height:3250px;
-    }
     #line_up .film2{
-        padding: 300px 80px;
+        padding: 200px 50px;
     }
     #line_up .film3{
-        padding: 450px 100px;
+        padding: 450px 0px;
     }
     #line_up .img_film{
         margin-top: 50px;
     }
-    #benevole{
-        height: 2500px;
-    }
-    #partenaires{ 
-        height: 2500px;
+    #line_up{
+        height:2775px;
     }
     .div_partenaires{
         padding: 0 350px;
     }
     #infos .right{
-        padding: 100px 100px;
+        padding: 50px 50px;
     }
     #infos .map{
-        padding: 50px 100px;
+        padding: 50px 50px;
     }
     #contact{
-        padding: 100px 200px;
+        padding: 100px 0px;
+    }
+}
+@media (max-width: 767px){
+    h2, h3, p{
+        text-align: center;
+    }
+    h2{
+        font-size: 85px;
+    }
+    h3{
+        font-size: 45px;
+    }
+    p{
+        font-size: 30px;
+    }
+    #line_up{
+        height:4175px;
+    }
+    #line_up .film2{
+        padding: 700px 50px;
+    }
+    #line_up .film3{
+        padding: 600px 0px;
+    } 
+    #contact{
+        padding: 50px 50px;
+    }
+}
+@media (max-width: 540px){
+    #contact{
+        padding: 50px 91px;
+    }
+    #checkbox label{
+        height: 75px;
+        font-size: 20px;
     }
 }

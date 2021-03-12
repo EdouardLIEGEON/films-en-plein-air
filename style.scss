@@ -38,13 +38,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 10px;
-    padding-right: 10px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-
 .navbar{
-    padding: 20px 100px;
+    padding: 20px 50px;
     background:black;
     .nav-link{
         color: #a07720;
@@ -77,15 +75,13 @@ header{
     }
 }
 section{
-    padding: 75px 150px;
+    padding: 75px 200px;
 }
 #festival{
-    padding-top: 150px;
-    height: 550px;
     background: black;
     h2{
         color: #a07720;
-        text-align: justify;
+        padding-bottom: 25px;
     }
     h3{
         color: #a07720;
@@ -97,9 +93,14 @@ section{
         padding-top: 20px;
     }
     .newsletter{
-        padding: 100px 0;
+        padding-top: 75px;
         .email{
             font-family: $font1;
+            font-size: 25px;
+        }
+        #email{
+            margin-bottom: 25px;
+            width: 400px;
         }
         .button1{
             background: #a07720;
@@ -107,7 +108,7 @@ section{
             border-radius: 2px 2px 2px;
             color: #fff;
             font-family: $font1;
-            font-size: 25px;
+            font-size: 20px;
             padding: 10px 40px;
             &:hover{
                 background: #fff;
@@ -125,40 +126,37 @@ section{
     }
 }
 #line_up{
-    height:2700px;
-    padding-top:150px;
     h2{
         color: #fff;
-        padding-bottom: 100px;
         text-align: center;
+        margin-bottom: 75px;
     }
     h3{
         color: #fff;
         padding-bottom: 25px;
-        font-size: 50px;
+        font-size: 75px;
     }
     .film1{
-        height: 700px;
-        padding: 100px 75px;
-        margin: 50px 0;
+        height: 650px;
+        padding-bottom: 75px;
+        margin: 0px 0;
     }
     .film2{
-        height: 700px;
-        padding: 100px 75px;
-        margin: 50px 0;
+        height: 650px;
+        padding-bottom: 75px;
+        margin: 0px 0;
     }
     .film3{
-        height: 700px;
-        padding: 100px 75px;
-        margin: 50px 0;
+        height: 600px;
+        margin: 0px 0;
     }
     p{
         color:#fff;
     }
     .img_film{
-        width:280px; 
-        height:400px;
-        border-radius: 2px 2px 2px;
+        width:380px; 
+        height:550px;
+        border-radius: 5px 5px 5px;
     }
     button{
         background: #a07720;
@@ -177,12 +175,11 @@ section{
     }
 }
 #benevole{
-    height: 1600px;
     background: #000;
     h2{
         color: #a07720;
-        padding-bottom: 100px;
         text-align: center;
+        margin-bottom: 75px;
     }
     .nat{
         padding-bottom: 50px;
@@ -205,7 +202,7 @@ section{
     }
 }
 #recrutement{
-padding-top: 200px;
+padding-top: 75px;
     h4{
     color: #a07720;
     font-size: 40px;
@@ -238,34 +235,12 @@ padding-top: 200px;
     }
 }
 #partenaires{
-    height: 1200px;
-    
     h2{
         color:#fff;
-        padding-bottom: 100px;
         text-align: center;
+        margin-bottom: 75px;
     }
-    .img_partenaires{
-        width: 269px;
-        height:530px;
-        border-radius: 3px 3px 3px;
-        transform: skewY(-1deg);
-        }
-        .img_5{
-            margin-top: 5px;
-        }
-        .img_4{
-            margin-top: 10px;
-        }
-        .img_3{
-            margin-top: 15px;
-        }
-        .img_2{
-            margin-top: 20px;
-        }
-        .img_1{
-            margin-top: 25px;
-        }
+    
     h4{
         text-align: center;
         color: #fff;
@@ -273,6 +248,29 @@ padding-top: 200px;
         font-family: $font1;
         padding: 75px 0;
     }
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: minmax(300px, 1fr);
+        grid-gap: 10px;
+      }
+      
+      li {
+        position: relative;
+      }
+      
+      img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        object-fit: cover;
+        object-position: center;
+      }
     .cta_benevole{
         background: #a07720;
         border: solid 2px #fff;
@@ -297,10 +295,14 @@ padding-top: 200px;
 }
 #infos{
     background: #000;
+    padding: 75px 300px;
+    .map{
+        padding-top: 25px;
+    }
     h2{
         color: #fff;
         text-align: center;
-        padding-bottom: 100px;
+        margin-bottom: 75px;
     }
     h3{
         color: #a07720;
@@ -312,24 +314,43 @@ padding-top: 200px;
     }
 }
 #contact{
-
+    .form1, .form2{
+        padding: 25px 75px;
+    }
     h2{
     color: #fff;
     text-align: center;
+    margin-bottom: 75px;
     }
     p{
     color: #fff;
+    text-align: center;;
     }
     form{
-    padding-top: 50px;
+    padding-top: 50px;   
+        label{
+        color: #fff;
+        font-family:$font1;
+        font-size: 25px;
+        }
         input{
+            background: #fff;
+            border: solid 2px #a07720;
+            border-radius: 2px 2px 2px;
+            color: #a07720;
+            font-family: $font1;
+            font-size: 25px;
+            padding: 10px 0px;
+        }
+        textarea{
         background: #fff;
         border: solid 2px #a07720;
         border-radius: 2px 2px 2px;
         color: #a07720;
         font-family: $font1;
         font-size: 25px;
-        padding: 10px 40px;
+        padding: 10px 0px;
+        height: 110px;
         &:hover{
             background: #fff;
             border: solid 2px #a07720;
@@ -343,7 +364,9 @@ padding-top: 200px;
             color: #fff;
             font-family: $font1;
             font-size: 25px;
-            padding: 10px 40px;
+            margin: 10px 0;
+            height: 60px;
+            width: 200px;
             &:hover{
                 background: #fff;
                 border: solid 2px #a07720;
@@ -357,17 +380,51 @@ padding-top: 200px;
                 text-decoration: none;
             }
         }
-        #hour-select{
-            margin: 25px 0;
-        }
-        .button1{
+    #checkbox{
+        padding: 20px 100px;
+        div {
+            display: inline-block;
+            position: relative;
+          }
+          input {
+            display: none;
+          }
+          label {
+            display: block;
+            height: 50px;
+            background-color: #fff;
+            color: #a07720;
+            border: solid 2px #a07720;
+            border-radius: 3px 3px 3px;
+            padding: 0 10px;
+            margin:10px 0;
+            width: max-content;
+            font-family: $font1;
+            font-size: 18px;
+          } 
+          input:checked ~ label {
+            background-color: #a07720;
+            border: solid 1px #fff;
             color: #fff;
+          }
+          input:checked ~ label::after {
+            content: '';
+            display: block;
+            height: 10px;
+            width: 10px;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Check-green.svg/600px-Check-green.svg.png);
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+          }
         }
     }
 }
 footer{
     background: #000000;
-    padding: 50px 500px;
+    padding: 50px 0px;
     p{
         color:#fff;
         font-family: $font1;
