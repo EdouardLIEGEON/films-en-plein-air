@@ -429,4 +429,30 @@ footer{
         color:#fff;
         font-family: $font1;
     }
+    #myBtn {
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        z-index: 99; 
+        outline: none; 
+        background-color: #a07720;
+        color: white; 
+        cursor: pointer; 
+        padding: 15px; 
+        border: solid 2px #fff;
+        border-radius: 10px; 
+        font-size: 18px;
+        &:hover {
+            background-color: #fff; 
+            border: solid 2px #a07720;
+          } 
+        a{
+            color: #fff;
+            &:hover{
+                text-decoration: none;
+                color: #a07720;
+            }
+        }
+
+    }
 }
