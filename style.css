@@ -308,6 +308,15 @@ section {
 
 #partenaires li {
   position: relative;
+  width: 100%;
+}
+
+#partenaires li::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-bottom: 100%;
 }
 
 #partenaires img {

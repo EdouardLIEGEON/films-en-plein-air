@@ -258,8 +258,15 @@ padding-top: 75px;
       
       li {
         position: relative;
+        width: 100%;
       }
-      
+      li::before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        padding-bottom: 100%;
+      }
       img {
         position: absolute;
         height: 100%;
