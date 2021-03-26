@@ -102,6 +102,11 @@ section{
             margin-bottom: 25px;
             width: 400px;
         }
+        label{
+            color: #fff;
+            font-family: $font1;
+            font-size: 25px;
+        }
         .button1{
             background: #a07720;
             border: solid 2px #fff;
@@ -321,9 +326,6 @@ padding-top: 75px;
     }
 }
 #contact{
-    .form1, .form2{
-        padding: 25px 75px;
-    }
     h2{
     color: #fff;
     text-align: center;
